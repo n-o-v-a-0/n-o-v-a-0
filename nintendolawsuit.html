@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Every Nintendo lawsuit</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
       body {
         display: none;
       }
     </style>
-    <link rel="stylesheet" href="nintendolawsuit.css">
+    <link rel="stylesheet" href="nintendolawsuit.css" />
     <script>
       $(document).ready(function () {
         $("body").fadeIn();
@@ -31,11 +32,37 @@
     </a>
     <h1>List of every Nintendo lawsuit</h1>
     <p>(hover over text for more info)</p>
-    <p id="lawone" class="main">Nintendo Forces Japanese Dev To Cough Up $30 Million</p>
-    <p id="textone" class="extra">In December 2017, Nintendo sued Japanese developer Colopl over patent infringements in the free-to-play mobile game Shironeko Project. According to an official statement, Colopl has agreed to pay Nintendo 3.3 billion yen ($30 million)</p>
+    <p id="lawone" class="main">
+      Nintendo Forces Japanese Dev To Cough Up $30 Million
+    </p>
+    <p id="textone" class="extra">
+      In December 2017, Nintendo sued Japanese developer Colopl over patent
+      infringements in the free-to-play mobile game Shironeko Project. According
+      to an official statement, Colopl has agreed to pay Nintendo 3.3 billion
+      yen ($30 million)
+    </p>
     <p id="lawtwo" class="main">Gary Bowser is sued</p>
-    <p id="texttwo" class="extra">A 51 year old Canadian and console hacker is sued by the company. According the Nintendo he was a member of the hack group, Team Xecuter.</p>
-    <p id="lawthree" class="main">Bowser's genitals hit with copyright takedown</p>
-    <p id="textthree" class="extra">A 3D modeler that makes NSFW art was hit by a copyright takedown on Patreon and it's artwork was removed from the platform. The 3D model is now open source and free to download.</p>
+    <p id="texttwo" class="extra">
+      A 51 year old Canadian and console hacker is sued by the company.
+      According the Nintendo he was a member of the hack group, Team Xecuter.
+    </p>
+    <p id="lawthree" class="main">
+      Bowser's genitals hit with copyright takedown
+    </p>
+    <p id="textthree" class="extra">
+      A 3D modeler that makes NSFW art was hit by a copyright takedown on
+      Patreon and it's artwork was removed from the platform. The 3D model is
+      now open source and free to download.
+    </p>
+    <script>
+      if (
+        /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+          navigator.userAgent
+        )
+      ) {
+        document.body.innerHTML =
+          "<p>Please use a desktop device for the best experience.</p>";
+      }
+    </script>
   </body>
 </html>
