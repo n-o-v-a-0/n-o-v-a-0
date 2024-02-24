@@ -1,0 +1,41 @@
+@import "https://fonts.googleapis.com/css2?family=Comfortaa";
+
+#lawone:hover + #textone {
+    display: block;
+}
+
+.main {
+    cursor: help;
+}
+
+#textone {
+    display: none;
+}
+
+.extra {
+    background-color: rgb(189, 189, 189);
+    color: #fff;
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+* {font-family: 'Comfortaa', sans-serif;}
+
+#lawtwo:hover + #texttwo {
+    display: block;
+}
+
+#texttwo {
+    display: none;
+}
+
+#lawthree:hover + #textthree {
+    display: block;
+}
+
+#textthree {
+    display: none;
+}
+

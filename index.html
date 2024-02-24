@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random bullshit</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+      body {
+        display: none;
+      }
+    </style>
+    <link rel="stylesheet" href="main.css">
+    <script>
+      $(document).ready(function () {
+        $("body").fadeIn();
+
+        // Fade out body when any link is clicked
+        $("a").on("click", function (e) {
+          e.preventDefault(); // Prevent the default link behavior
+          var href = $(this).attr("href");
+          $("body").fadeOut(function () {
+            window.location.href = href; // Redirect to the link after fadeout
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Random bullshit for no reason</h1>
+    <ul>
+      <li><a href="nintendolawsuit.html">List of every Nintendo Lawsuit</a></li>
+    </ul>
+  </body>
+</html>
