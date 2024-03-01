@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Every Nintendo lawsuit</title>
+    <title>Random bullshit</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
@@ -12,19 +12,7 @@
       }
     </style>
     <link rel="stylesheet" href="nintendolawsuit.css" />
-    <script>
-      $(document).ready(function () {
-        $("body").fadeIn();
-
-        $("a").on("click", function (e) {
-          e.preventDefault();
-          var href = $(this).attr("href");
-          $("body").fadeOut(function () {
-            window.location.href = href;
-          });
-        });
-      });
-    </script>
+    <script src="fading.js"></script>
   </head>
   <body>
     <a href="index.html">

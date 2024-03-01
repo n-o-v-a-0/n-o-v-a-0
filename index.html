@@ -12,25 +12,13 @@
       }
     </style>
     <link rel="stylesheet" href="main.css" />
-    <script>
-      $(document).ready(function () {
-        $("body").fadeIn();
-
-        // Fade out body when any link is clicked
-        $("a").on("click", function (e) {
-          e.preventDefault(); // Prevent the default link behavior
-          var href = $(this).attr("href");
-          $("body").fadeOut(function () {
-            window.location.href = href; // Redirect to the link after fadeout
-          });
-        });
-      });
-    </script>
+    <script src="fading.js"></script>
   </head>
   <body>
     <h1>Random bullshit for no reason</h1>
     <ul>
       <li><a href="nintendolawsuit.html">List of every Nintendo Lawsuit</a></li>
+      <li><a href="apple.html">iPhone specs since the iPhone 10</a></li>
     </ul>
   </body>
 </html>
